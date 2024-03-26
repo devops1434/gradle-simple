@@ -16,7 +16,7 @@ pipeline {
     }
     stage ('gradle test') {
         steps {
-            sh 'gradle test package'
+            sh 'gradle test'
         }
     }
     }
